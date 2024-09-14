@@ -14,7 +14,7 @@ export default function Footer() {
               <span className="self-center md:text-xl font-semibold whitespace-nowrap">MineGuard</span>
             </Link>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6">
+          <div className="grid grid-cols-2 gap-8 sm:gap-10">
               <div>
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">Recursos</h2>
                 <ul className="text-gray-500 font-medium">
@@ -30,10 +30,10 @@ export default function Footer() {
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">Síguenos</h2>
                 <ul className="text-gray-500 font-medium">
                   <li className="mb-4">
-                    <Link href="/" className="hover:underline">Instagram</Link>
+                    <Link href='https://www.instagram.com/ariddwellers/?hl=es' target='_blank'  className="hover:underline">Instagram</Link>
                   </li>
                   <li>
-                    <Link href="/" className="hover:underline">Youtube</Link>
+                    <Link href='https://www.linkedin.com/company/arid-dwellers/' target='_blank'  className="hover:underline">linkedin</Link>
                   </li>
                 </ul>
               </div>

@@ -24,7 +24,7 @@ export default function page() {
 
 
 
-      <section className="container-custom card-grande my-6 mt-40 bg-gray-50" >
+      <section className="container-custom card-grande my-6 mt-20 md:mt-40 bg-gray-50" >
 
         <div className='hidden md:flex justify-center items-start md:items-center mx-auto w-full sm:w-7/12 md:w-full xl:w-10/12 lg:mt-0 z-50'>
           {/* <Image 
