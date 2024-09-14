@@ -4,7 +4,7 @@ import { FaChartLine, FaFileExport, FaMoneyBills, FaPersonCircleQuestion } from 
 
 
 export const metadata = {
-  title: 'Sobre MineGuard'
+  title: 'Sobre Nostros - MineGuard'
 }
 
 

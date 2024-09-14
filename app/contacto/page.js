@@ -5,7 +5,7 @@ import Mapa from '../../components/Mapa'
 
 
 export const metadata = {
-  title: 'Sobre MineGuard'
+  title: 'Contacto MineGuard'
 }
 
 
