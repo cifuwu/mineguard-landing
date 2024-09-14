@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div className="overflow-x-hidden">
       
-      <section className="relative z-10 grid pt-20 md:pt-0 grid-cols-1 md:grid-cols-2 px-4 md:px-8 md:gap-5 lg:gap-10 overflow-x-hidden min-h-screen ">
+      <section className="relative z-10 grid pt-5 md:pt-0 grid-cols-1 md:grid-cols-2 px-4 md:px-8 md:gap-5 lg:gap-10 overflow-x-hidden min-h-screen ">
         
         <Gradiente />
 

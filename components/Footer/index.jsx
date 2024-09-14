@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function Footer() {
   return (
     <footer className="bg-blue-50/70  mt-20">
-      <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+      <div className="mx-auto w-full xl:px-10 p-4 py-6 lg:py-8">
         <div className="md:flex md:justify-between">
           <div className="mb-6 md:mb-0">
             <Link href="/" className="flex items-center gap-2">
@@ -14,7 +14,7 @@ export default function Footer() {
               <span className="self-center md:text-xl font-semibold whitespace-nowrap">MineGuard</span>
             </Link>
           </div>
-          <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+          <div className="grid grid-cols-2 gap-8 sm:gap-6">
               <div>
                 <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase ">Recursos</h2>
                 <ul className="text-gray-500 font-medium">
