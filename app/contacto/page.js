@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { FaChartLine, FaFileExport, FaMoneyBills, FaPersonCircleQuestion } from 'react-icons/fa6'
-import Mapa from './mapa'
+import Mapa from '../../components/Mapa'
 
 
 export const metadata = {
