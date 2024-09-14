@@ -1,6 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
 import { FaChartLine, FaFileExport, FaLinkedin, FaMoneyBills, FaPersonCircleQuestion } from 'react-icons/fa6'
+import cifu from '@/public/cifu.jpeg'
+import brandon from '@/public/brandon.jpeg'
+import cris from '@/public/cris.jpeg'
+import hugo from '@/public/hugo.jpeg'
+import nico from '@/public/nico.jpeg'
 
 
 export const metadata = {
@@ -41,7 +46,7 @@ export default function page() {
             </div>
 
             <div class="text-center text-gray-500 w-60">
-              <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar"></img>
+              <Image class="mx-auto mb-4 w-36 h-36 rounded-full" src={brandon} alt="Sebastián Cifuentes"></Image>              
               <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900">
                 <a href="#">Brandon Monsalve</a>
               </h3>
@@ -58,7 +63,7 @@ export default function page() {
 
 
             <div class="text-center text-gray-500 w-60">
-              <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar"></img>
+              <Image class="mx-auto mb-4 w-36 h-36 rounded-full" src={nico} alt="Sebastián Cifuentes"></Image>              
               <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900">
                 <a href="#">Nicolás Vargas Pavez</a>
               </h3>
@@ -75,7 +80,7 @@ export default function page() {
 
 
             <div class="text-center text-gray-500 w-60">
-              <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar"></img>
+              <Image class="mx-auto mb-4 w-36 h-36 rounded-full" src={cris} alt="Sebastián Cifuentes"></Image>              
               <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900">
                 <a href="#">Cristobal Martinez</a>
               </h3>
@@ -93,7 +98,7 @@ export default function page() {
 
 
             <div class="text-center text-gray-500 w-60">
-              <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar"></img>
+              <Image class="mx-auto mb-4 w-36 h-36 rounded-full" src={hugo} alt="Sebastián Cifuentes"></Image>
               <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900">
                 <a href="#">Hugo Sepúlveda</a>
               </h3>
@@ -110,7 +115,7 @@ export default function page() {
 
 
             <div class="text-center text-gray-500 w-60">
-              <img class="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar"></img>
+              <Image class="mx-auto mb-4 w-36 h-36 rounded-full" src={cifu} alt="Sebastián Cifuentes"></Image>
               <h3 class="mb-1 text-2xl font-bold tracking-tight text-gray-900">
                 <a href="#">Sebastián Cifuentes</a>
               </h3>
