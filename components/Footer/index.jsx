@@ -40,7 +40,7 @@ export default function Footer() {
       </div>
       <hr className="my-6 border-gray-200 sm:mx-auto  lg:my-8" />
       <div className="sm:flex sm:items-center sm:justify-between">
-        <span className="text-sm text-gray-500 sm:text-center ">Hecho con ❤️ por <Link href="https://www.linkedin.com/in/cifu/" target='_blank' className="hover:underline">Cifu</Link>.
+        <span className="text-sm text-gray-500 sm:text-center ">Página hecha con ❤️ por <Link href="https://www.linkedin.com/in/cifu/" target='_blank' className="hover:underline">Cifu</Link>.
         </span>
         <div className="flex mt-4 sm:justify-center sm:mt-0">
         
