@@ -20,7 +20,7 @@ export default function page() {
 
           <div className="mr-auto place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-lg font-medium tracking-tight leading-none md:text-xl xl:text-3xl">Encuéntranos en la Feria de software 2024 USM.</h1>
-            <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 text-sm md:text-lg lg:text-xl">Únete a nosotros el 15 de noviembre en la Universidad Técnica Federico Santa María, sede San Joaquín, para sumergirte en el fascinante mundo de la innovación.</p>
+            <p className="max-w-2xl mb-6 font-light text-gray-700 lg:mb-8 text-sm md:text-lg lg:text-xl">Únete a nosotros el 15 de noviembre en la Universidad Técnica Federico Santa María, sede San Joaquín, para sumergirte en el fascinante mundo de la innovación.</p>
 
             <div className='flex gap-2 items-center'>
               <FaLocationDot className='text-gray-600 text-4xl'/>
