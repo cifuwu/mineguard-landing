@@ -56,7 +56,7 @@ export default function page() {
 
         <div className='flex md:hidden justify-center items-start md:items-center mx-auto w-full sm:w-7/12 md:w-full xl:w-10/12 lg:mt-0 z-50'>
           <Image 
-            src={camion_1}
+            src={camion_2}
             alt="" 
             placeholder='blur'
             className="w-full rounded-2xl" 
