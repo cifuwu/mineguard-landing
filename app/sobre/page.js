@@ -135,6 +135,13 @@ export default function page() {
 
       </section>
 
+      <div className='container-custom mt-16 md:mt-20 mb-5 flex justify-center flex-col gap-5'>
+        <h3 className='font-semibold text-lg md:text-2xl text-center text-gray-800'>¿Quieres saber más sobre MineGuard? Mira este video</h3>
+        <div className="flex justify-center">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/xAZMCZHOdJ8?si=2J_fTn7N6yOcyYSz" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+        </div>
+      </div>
+
 {/* 
 
       <div className='container-custom mt-10 md:mt-20 mb-5'>
