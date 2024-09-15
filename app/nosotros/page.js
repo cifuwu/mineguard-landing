@@ -6,6 +6,7 @@ import brandon from '@/public/brandon.jpeg'
 import cris from '@/public/cris.jpeg'
 import hugo from '@/public/hugo.jpeg'
 import nico from '@/public/nico.jpeg'
+import claudio from '@/public/claudio.png'
 
 
 export const metadata = {
@@ -29,21 +30,6 @@ export default function page() {
 
           <div className="gap-x-10 gap-12 mb-6 lg:mb-16 flex justify-center flex-wrap">
 
-            
-            <div className="text-center text-gray-500 w-60 ">
-              <img className="mx-auto mb-4 w-36 h-36 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Avatar"></img>
-              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900">
-                <a href="#">Claudio Inal</a>
-              </h3>
-              <p>Scrum Master</p>
-              <ul className="flex justify-center mt-4 space-x-4">
-                <li>
-                  <a href="https://www.linkedin.com/in/audiocl/" target='_blank' className="text-gray-500 hover:text-gray-900 ">
-                      <FaLinkedin className='w-7 h-7'/>
-                    </a>
-                </li>
-              </ul>
-            </div>
 
             <div className="text-center text-gray-500 w-60">
               <Image width={300} height={300} className="mx-auto mb-4 w-36 h-36 rounded-full" src={brandon} alt="Sebastián Cifuentes"></Image>              
@@ -76,7 +62,22 @@ export default function page() {
                 </li>
               </ul>
             </div>
+            
 
+            <div className="text-center text-gray-500 w-60 ">
+              <Image width={300} height={300} className="mx-auto mb-4 w-36 h-36 rounded-full" src={claudio} alt="Sebastián Cifuentes"></Image>              
+              <h3 className="mb-1 text-2xl font-bold tracking-tight text-gray-900">
+                <a href="#">Claudio Inal</a>
+              </h3>
+              <p>Scrum Master</p>
+              <ul className="flex justify-center mt-4 space-x-4">
+                <li>
+                  <a href="https://www.linkedin.com/in/audiocl/" target='_blank' className="text-gray-500 hover:text-gray-900 ">
+                      <FaLinkedin className='w-7 h-7'/>
+                    </a>
+                </li>
+              </ul>
+            </div>
 
 
             <div className="text-center text-gray-500 w-60">
@@ -93,7 +94,6 @@ export default function page() {
                 </li>
               </ul>
             </div>
-
 
 
 
